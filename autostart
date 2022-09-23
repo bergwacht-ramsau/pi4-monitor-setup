@@ -1,0 +1,6 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@chromium-browser --noerrdialogs --window-position=0,0 --kiosk --user-data-dir="/home/pi/Documents/Profiles/0" --start-fullscreen https://web.alarmmonitor.de/048ae5a9-feee-4207-809b-917dbb816599?fixed1=0&fixed0=0
+@chromium-browser --noerrdialogs --window-position=2560,0 --kiosk --user-data-dir="/home/pi/Documents/Profiles/1" --start-fullscreen https://bergwacht-ramsau.github.io/webcams
+@unclutter -idle 0.1
